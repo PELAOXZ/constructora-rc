@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces | Constructora RC</title>
+    <style>
+        :root {
+            --primary: #F57C00; /* Naranjo corporativo */
+            --dark: #263238;
+            --light: #f4f4f4;
+        }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: var(--dark); /* Fondo oscuro elegante */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .logo-container {
+            margin-bottom: 30px;
+        }
+        .logo-img {
+            width: 120px; /* Ajusta si es necesario */
+            /* Asegúrate de haber guardado el logo nuevo como img/logo-rc.png */
+        }
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+        p {
+            opacity: 0.8;
+            margin-bottom: 40px;
+        }
+        .links-container {
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .link-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 18px;
+            background: white;
+            color: var(--dark);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            border-radius: 50px; /* Botones redondos modernos */
+            transition: transform 0.2s, background 0.2s;
+            border: 2px solid transparent;
+        }
+        .link-btn:hover {
+            transform: scale(1.02);
+            background: var(--light);
+        }
+        /* Estilos específicos para destacar botones */
+        .btn-whatsapp {
+            background: #25D366; /* Verde WhatsApp */
+            color: white;
+        }
+        .btn-web {
+            background: var(--primary); /* Naranjo RC */
+            color: white;
+        }
+        .icon { margin-right: 10px; font-size: 1.3rem; }
+        footer {
+            margin-top: auto;
+            padding-top: 40px;
+            font-size: 0.8rem;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo-container">
+        <img src="img/logo-rc.png" alt="Constructora RC" class="logo-img">
+    </div>
+
+    <h1>Constructora RC</h1>
+    <p>Sergio Rojas C. | Antofagasta</p>
+
+    <div class="links-container">
+        <a href="https://wa.me/56981471305?text=Hola,%20escaneé%20su%20QR%20y%20quiero%20cotizar." class="link-btn btn-whatsapp">
+            <span class="icon">📲</span> Hablar por WhatsApp
+        </a>
+
+        <a href="/" class="link-btn btn-web">
+            <span class="icon">🌐</span> Ver Página Web y Fotos
+        </a>
+
+        <a href="https://www.facebook.com/TU_PAGINA_AQUI" target="_blank" class="link-btn">
+            <span class="icon">📘</span> Facebook
+        </a>
+
+        <a href="https://www.instagram.com/TU_USUARIO_AQUI" target="_blank" class="link-btn">
+            <span class="icon">📸</span> Instagram
+        </a>
+
+        <a href="tel:+56981471305" class="link-btn">
+            <span class="icon">📞</span> Llamar por Teléfono
+        </a>
+    </div>
+
+    <footer>
+        © 2026 Constructora RC
+    </footer>
+
+</body>
+</html>

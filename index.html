@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Constructora RC en Antofagasta. Ampliaciones, Metalcon, Gasfitería y Electricidad. Calidad y confianza con Sergio Rojas.">
+    <meta name="author" content="josedev">
+    <title>Constructora RC | Antofagasta</title>
+    <style>
+        :root {
+            --primary: #F57C00; /* Naranjo del logo */
+            --secondary: #263238; /* Gris oscuro/Azul */
+            --light: #f4f4f4;
+            --dark: #333;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        
+        body { line-height: 1.6; color: var(--dark); }
+        
+        /* Header / Hero */
+        header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1920&auto=format&fit=crop'); /* FOTO DE FONDO GENÉRICA - CÁMBIALA DESPUÉS */
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 { font-size: 3rem; margin-bottom: 10px; text-transform: uppercase; border-bottom: 4px solid var(--primary); }
+        h2 { font-size: 1.5rem; font-weight: 300; margin-bottom: 30px; }
+        
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: 0.3s;
+            border: 2px solid var(--primary);
+        }
+        
+        .btn:hover { background: transparent; color: var(--primary); }
+
+        /* Servicios */
+        .section { padding: 60px 20px; text-align: center; }
+        .bg-light { background: var(--light); }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 40px auto 0;
+        }
+        
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-bottom: 5px solid var(--primary);
+        }
+        
+        .card h3 { color: var(--secondary); margin-bottom: 15px; }
+
+        /* Galería */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            max-width: 1200px;
+            margin: 40px auto;
+        }
+        .gallery-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        /* Contacto */
+        footer {
+            background: var(--secondary);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        .contact-info { font-size: 1.2rem; margin: 20px 0; }
+        
+        .footer-credit {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            opacity: 0.6;
+        }
+
+        /* Móvil */
+        @media(max-width: 768px) {
+            h1 { font-size: 2rem; }
+            header { height: 80vh; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Constructora RC</h1>
+        <h2>Expertos en Construcción y Remodelación en Antofagasta</h2>
+        <a href="https://wa.me/56981471305?text=Hola,%20vi%20su%20página%20web%20y%20me%20gustaría%20cotizar%20un%20trabajo" class="btn">
+            📲 Cotizar por WhatsApp
+        </a>
+    </header>
+
+    <section class="section bg-light">
+        <h2 style="color: var(--secondary);">Nuestros Servicios</h2>
+        <div class="services-grid">
+            <div class="card">
+                <h3>🏠 Ampliaciones</h3>
+                <p>Ampliaciones de primer y segundo piso, regularizaciones y remodelaciones completas.</p>
+            </div>
+            <div class="card">
+                <h3>🏗️ Estructura Metálica</h3>
+                <p>Metalcon, cobertizos, rejas y estructuras sólidas para tu hogar o empresa.</p>
+            </div>
+            <div class="card">
+                <h3>⚡ Electricidad y Gasfitería</h3>
+                <p>Instalaciones certificadas, reparación de fugas, calefón y cableado eléctrico.</p>
+            </div>
+            <div class="card">
+                <h3>🚿 Terminaciones</h3>
+                <p>Cerámica, pisos flotantes, instalación de baños, lozas y pintura.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 style="color: var(--secondary);">Nuestros Trabajos</h2>
+        <p>Calidad garantizada por Sergio Rojas C.</p>
+        
+        <div class="gallery-grid">
+            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=500&q=60" alt="Trabajo Soldadura" class="gallery-img">
+            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=500&q=60" alt="Construcción" class="gallery-img">
+            <img src="https://images.unsplash.com/photo-1620626012053-93f2685048d6?auto=format&fit=crop&w=500&q=60" alt="Terminaciones" class="gallery-img">
+        </div>
+    </section>
+
+    <footer>
+        <h2>Contáctanos</h2>
+        <div class="contact-info">
+            <p>📞 +56 9 8147 1305</p>
+            <p>📍 Antofagasta, Chile</p>
+            <p>👷🏻‍♂️ Atención: Sergio Rojas C.</p>
+        </div>
+        <a href="https://wa.me/56981471305" class="btn" style="border: 2px solid white;">Hablar ahora</a>
+        
+        <div class="footer-credit">
+            <p>&copy; 2026 Constructora RC. Todos los derechos reservados.</p>
+            <p>Desarrollado por <strong>josedev</strong></p>
+        </div>
+    </footer>
+
+</body>
+</html>
