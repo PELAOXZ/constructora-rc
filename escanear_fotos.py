@@ -6,7 +6,7 @@ carpeta_img = 'img'
 archivo_salida = 'datos_galeria.js'
 
 # Las carpetas que vamos a escanear (tienen que existir dentro de img/)
-categorias = ['techumbres', 'losas_pisos', 'ampliaciones', 'terminaciones', 'estructuras', 'gasfiteria', 'soldadura']
+categorias = ['techumbres', 'losas', 'ampliaciones', 'terminaciones', 'estructuras', 'gasfiteria', 'piso', 'soldadura']
 
 datos = {}
 
