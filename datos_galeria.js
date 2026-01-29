@@ -8,6 +8,22 @@ const galeriaDatos = {
         "img/techumbres/WhatsApp Image 2026-01-28 at 5.56.19 PM (3).jpeg",
         "img/techumbres/WhatsApp Image 2026-01-28 at 5.56.19 PM.jpeg"
     ],
+    "losas": [
+        "img/losas/WhatsApp Image 2026-01-28 at 6.40.01 PM (1).jpeg",
+        "img/losas/WhatsApp Image 2026-01-28 at 6.40.01 PM (2).jpeg",
+        "img/losas/WhatsApp Image 2026-01-28 at 6.40.01 PM.jpeg",
+        "img/losas/WhatsApp Image 2026-01-28 at 6.40.15 PM (1).jpeg",
+        "img/losas/WhatsApp Image 2026-01-28 at 6.40.15 PM.jpeg",
+        "img/losas/WhatsApp Image 2026-01-28 at 6.40.16 PM (1).jpeg",
+        "img/losas/WhatsApp Image 2026-01-28 at 6.40.16 PM (2).jpeg",
+        "img/losas/WhatsApp Image 2026-01-28 at 6.40.16 PM (3).jpeg",
+        "img/losas/WhatsApp Image 2026-01-28 at 6.40.16 PM.jpeg",
+        "img/losas/WhatsApp Image 2026-01-28 at 6.40.17 PM (1).jpeg",
+        "img/losas/WhatsApp Image 2026-01-28 at 6.40.17 PM (2).jpeg",
+        "img/losas/WhatsApp Image 2026-01-28 at 6.40.17 PM (3).jpeg",
+        "img/losas/WhatsApp Image 2026-01-28 at 6.40.17 PM.jpeg",
+        "img/losas/WhatsApp Image 2026-01-28 at 6.40.18 PM.jpeg"
+    ],
     "ampliaciones": [
         "img/ampliaciones/WhatsApp Image 2026-01-28 at 5.56.00 PM (2).jpeg",
         "img/ampliaciones/WhatsApp Image 2026-01-28 at 5.56.05 PM (1).jpeg",
@@ -62,6 +78,24 @@ const galeriaDatos = {
         "img/gasfiteria/WhatsApp Image 2026-01-28 at 5.56.22 PM.jpeg",
         "img/gasfiteria/WhatsApp Image 2026-01-28 at 5.56.24 PM (1).jpeg",
         "img/gasfiteria/WhatsApp Image 2026-01-28 at 5.56.24 PM.jpeg"
+    ],
+    "pisos": [
+        "img/pisos/WhatsApp Image 2026-01-28 at 5.55.57 PM (1).jpeg",
+        "img/pisos/WhatsApp Image 2026-01-28 at 5.55.57 PM (2).jpeg",
+        "img/pisos/WhatsApp Image 2026-01-28 at 5.55.57 PM.jpeg",
+        "img/pisos/WhatsApp Image 2026-01-28 at 5.55.58 PM (1).jpeg",
+        "img/pisos/WhatsApp Image 2026-01-28 at 5.55.58 PM.jpeg",
+        "img/pisos/WhatsApp Image 2026-01-28 at 5.55.59 PM.jpeg",
+        "img/pisos/WhatsApp Image 2026-01-28 at 5.56.00 PM.jpeg",
+        "img/pisos/WhatsApp Image 2026-01-28 at 5.56.04 PM.jpeg",
+        "img/pisos/WhatsApp Image 2026-01-28 at 5.56.05 PM.jpeg",
+        "img/pisos/WhatsApp Image 2026-01-28 at 5.56.20 PM (3).jpeg",
+        "img/pisos/WhatsApp Image 2026-01-28 at 5.56.21 PM (1).jpeg",
+        "img/pisos/WhatsApp Image 2026-01-28 at 5.56.21 PM (2).jpeg",
+        "img/pisos/WhatsApp Image 2026-01-28 at 5.56.21 PM (3).jpeg",
+        "img/pisos/WhatsApp Image 2026-01-28 at 5.56.21 PM.jpeg",
+        "img/pisos/WhatsApp Image 2026-01-28 at 6.39.59 PM (1).jpeg",
+        "img/pisos/WhatsApp Image 2026-01-28 at 6.40.00 PM.jpeg"
     ],
     "soldadura": [
         "img/soldadura/WhatsApp Image 2026-01-28 at 5.56.20 PM (1).jpeg",
